@@ -12,6 +12,13 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# --- Mac Build Outputs ---
+# The build folder itself (highlighted in your image)
+/[Mm]y[Pp]ong26/
+
+# Debug information generated during build
+/[Mm]y[Pp]ong26_BurstDebugInformation_DoNotShip/
+
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
@@ -107,6 +114,3 @@ InitTestScene*.unity*
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
-
-# Auto-generated scenes by play mode tests
-/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
